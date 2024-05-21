@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload this page use CI pipeline.
+          Edit <code>src/App.js</code> and save to reload this page use CI pipeline but this change from development will be merge to main.
         </p>
         <a
           className="App-link"
