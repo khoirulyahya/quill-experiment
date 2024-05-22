@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>
-          Welcome to your React App with CD pipeline
+          Welcome to your React App with CD pipeline from development to main branch.
         </h2>
         <p>
           Edit <code>src/App.js</code> and save to reload this page use CI pipeline but this change from development will be merge to main.
