@@ -13,9 +13,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>
-          Welcome to your React App with CD pipeline from development to main branch.
-          This is a final test with new set up cicd version.
+          This a simple React Quill Editor, try to edit the text below.
         </h2>
+        <ReactQuill theme="snow" value={value} onChange={setValue} />
         <p>
           Edit <code>src/App.js</code> and save to reload this page use CI pipeline but this change from development will be merge to main.
         </p>
@@ -28,7 +28,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <ReactQuill theme="snow" value={value} onChange={setValue} />
     </div>
   );
 }
