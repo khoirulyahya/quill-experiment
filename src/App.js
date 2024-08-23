@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>
-          BY DWI RUSWANTO at Bambanglipuro, Bantul. This a simple React Quill Editor, try to edit the text below. You can find this repo on my <a href="https://github.com/khoirulyahya/quill-experiment" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>Github</a>.
+          This a simple React Quill Editor, try to edit the text below. You can find this repo on my <a href="https://github.com/khoirulyahya/quill-experiment" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>Github</a>.
         </h2>
         <ReactQuill theme="snow" value={value} onChange={setValue} />
         <p>
